@@ -1,0 +1,75 @@
+{
+ "name": "Personal AI OS",
+ "short_name": "Personal OS",
+ "description": "Habits, tasks, diary and books in one calm place.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#070b14",
+ "theme_color": "#070b14",
+ "icons": [
+  {
+   "src": "icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "id": "./",
+ "lang": "en",
+ "categories": [
+  "productivity",
+  "lifestyle"
+ ],
+ "shortcuts": [
+  {
+   "name": "Add habit",
+   "short_name": "Habit",
+   "url": "./?a=habit",
+   "icons": [
+    {
+     "src": "icons/icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "Record speech",
+   "short_name": "Speech",
+   "url": "./?a=speech",
+   "icons": [
+    {
+     "src": "icons/icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "Write diary",
+   "short_name": "Diary",
+   "url": "./?a=diary",
+   "icons": [
+    {
+     "src": "icons/icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  }
+ ]
+}
